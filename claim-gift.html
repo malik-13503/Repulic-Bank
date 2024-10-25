@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claim Your Gift</title>
+    <link rel="stylesheet" href="claim.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Claim Your Gift</h1>
+            <p>Fill in your details below to claim your exclusive gift!</p>
+        </div>
+    </header>
+
+    <section class="prizes">
+        <div class="container">
+            <h2>Best Prizes Awaiting You!</h2>
+            <div class="prize-list">
+                <div class="prize-item animate">
+                    <img src="cruisetickets.jpg" alt="Prize 1">
+                    <h3>Alsakan Tickets</h3>
+                </div>
+                <div class="prize-item animate">
+                    <img src="freedubaitickets.jpg" alt="Prize 2">
+                    <h3>DUBAI TOUR</h3>
+                </div>
+                <div class="prize-item animate">
+                    <img src="visacardgift.jpg" alt="Prize 3">
+                    <h3>Consolation Prizes</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="claim-form">
+        <div class="container">
+            <form id="giftClaimForm">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="address">Shipping Address:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="cta-button">Claim My Gift</button>
+                <p id="responseMessage" class="response-message"></p>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Contact us: <a href="mailto:support@example.com">support@example.com</a></p>
+            <div class="social-media">
+                <a href="https://facebook.com" target="_blank">Facebook</a>
+                <a href="https://twitter.com" target="_blank">Twitter</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="claim.js"></script>
+</body>
+</html>
